@@ -397,3 +397,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/universal8890-common/universal8890-common-vendor.mk)
+
+# Fastbootd
+PRODUCT_PACKAGES += \
+ fastbootd \
+ android.hardware.fastboot@1.0-impl-mock \
+ android.hardware.fastboot@1.0-impl-mock.recovery
