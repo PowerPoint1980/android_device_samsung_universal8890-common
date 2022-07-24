@@ -30,3 +30,7 @@ ro.soc.model=Exynos 8890
 
 # WiFi
 wifi.direct.interface=p2p-dev-wlan0
+
+# Fastbootd
+ro.fastbootd.available=true
+
